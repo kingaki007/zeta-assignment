@@ -8,12 +8,11 @@ Assignment code for zeta
 
 #This project is uses:
 
--Native js, HTML5, CSS3(using sass) as core techs
--Responsive , No css frameworks
-
--It uses SASS for css coding, webpack sass compiler,
--Webpack for creatiing bundle js, css from sass, image compressions etc.
--It has basic css animations on main cards and user icons and couple of more places
-
--Uses dummy taskdata.json file as api for data.
--Uses promises and xhr for ajax requests.
+1) All Native javascript(not even jquery) uses ES6 at most places, HTML5, CSS3(using sass) as core techs
+2) Responsive , No css frameworks
+3) It uses SASS for css coding , webpack's sass compiler
+4) Webpack for creating bundle js, for transpiling ES6 to browser compatible(babel-loader), css from sass, image compressions etc.
+5) It has basic css animations on main cards and user icons and couple of more places
+6) Uses dummy taskdata.json file as api for data.
+7) Uses promises and xhr for ajax requests.
+8) I have used dummy images as I didn't have the images in the png provided.
