@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-
+var port = process.env.port || 3000;
 app.use(express.static(__dirname + '/build'));
 
 app.use('/build',express.static(__dirname + '/build'));
@@ -11,5 +11,5 @@ app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(1339);
-console.log('Open this link http://localhost:1339');
+app.listen(port);
+console.log('Open this link http://localhost:'+port);
