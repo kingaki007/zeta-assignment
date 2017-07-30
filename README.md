@@ -6,7 +6,7 @@ Assignment code for zeta
 4) Express will fire up on 3000.
 5) Go to http://localhost:3000
 
-#This project is uses:
+#This project uses:
 
 1) All Native javascript(not even jquery) uses ES6 at most places, HTML5, CSS3(using sass) as core techs
 2) Responsive , No css frameworks
@@ -16,3 +16,5 @@ Assignment code for zeta
 6) Uses dummy taskdata.json file as api for data.
 7) Uses promises and xhr for ajax requests.
 8) I have used dummy images as I didn't have the images in the png provided.
+
+Temporarily hosted on: http://akshaytest.eu-4.evennode.com/
