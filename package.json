@@ -7,7 +7,7 @@
     "build": "webpack",
     "clean": "rimraf build",
     "server": "webpack-dev-server",
-    "start": "npm run build & nodemon server.js"
+    "start": "npm run build & node server.js"
   },
   "author": "",
   "license": "ISC",
