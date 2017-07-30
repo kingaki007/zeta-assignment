@@ -15,6 +15,7 @@ Assignment code for zeta
 5) It has basic css animations on main cards and user icons and couple of more places
 6) Uses dummy taskdata.json file as api for data.
 7) Uses promises and xhr for ajax requests.
-8) I have used dummy images as I didn't have the images in the png provided.
+8) Dummy images as I didn't have the images in the png provided.
+9) Express server for serving files and Webpack-dev-server for development purposes. Scripts section explains all in package.json
 
 Temporarily hosted on: http://akshaytest.eu-4.evennode.com/
