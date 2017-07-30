@@ -1,0 +1,442 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+body{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Slab',sans serif;
+
+    .mainContainer{
+        position: relative;
+        width : 100%;
+        height: 100%;
+        background: #fff;
+
+        #header{
+            position: relative;
+            height: 63px;
+            width: 100%;
+            border-bottom: 1px solid rgb(242,244,248);
+            
+            #logo{
+                // width:  20%;
+                float: left;  
+                margin-top: 10px;
+                margin-left: 40px;
+            }
+            .mobileMenu{
+                display: none;   
+            }
+            .personal{
+                // width: 60%;
+                float: right;
+                margin-top: 23px;
+                margin-right:40px;
+                >div{
+                    display: inline-block;
+                    padding-right:10px;
+                    
+                    img{
+                        height: 20px;
+                        width: 20px;
+                        border-radius: 50%;
+                    }
+
+                }
+                 >div:hover{
+                    transform: scale(1.4);
+                }
+                >div:nth-of-type(1){
+                    -webkit-animation:0.55s show;
+                    animation:0.55s show;
+                }
+                >div:nth-of-type(2){
+                    -webkit-animation:0.75s show;
+                    animation:0.75s show;
+                }
+                >div:nth-of-type(3){
+                    -webkit-animation:0.95s show;
+                    animation:0.95s show;
+                }
+                >div:nth-of-type(4){
+                    -webkit-animation:0.95s show;
+                    animation:0.95s show;
+                }
+                .arrow{
+                    position: relative;
+                    top: -2px;
+                }
+                #arrow{
+                    width:12px;
+                    height: 12px;
+                    border-radius: 0;
+                }
+                #notification{
+                    position: relative;
+                    #numNotif{
+                        font-size: 9px;
+                        position: absolute;
+                        top: -5px;
+                        left: 14px;
+                        background: red;
+                        padding: 2px;
+                        color: #fff;
+                    }
+                }
+            }
+
+        }
+
+        #titleArea{
+            width: 100%;
+            //height: 120px;
+            box-shadow: 0px 2px 0px rgb(242,244,248);
+            position: relative;
+
+            >div{
+                display: inline-block;
+                width: 33%;
+                width: calc((100% / 3)-25px);
+            }
+
+            .round{
+                @include roundbox(40px,40px);
+            }
+
+            .reqdRound{
+                display: inline-block;
+                border-radius: 50%;
+                border: 1px solid grey;
+                text-align: center;
+                overflow: hidden;
+                margin-right: 10px;
+            }
+
+            .reqdRound:hover{
+                transform: scale(1.2);
+            }
+
+            .elliptical{
+                display: inline-block;
+                border-radius: 15px;
+                border: 1px solid rgb(164,231,180);
+                text-align: center;
+                overflow: hidden;
+                margin-right: 10px;
+                height: 36px;
+                width: 50px;
+                line-height: 35px;
+            }
+
+            #add{
+                border: 1px dashed grey;
+                height: 36px;
+                width: 36px;
+                line-height: 33px;
+                
+                span{
+                    vertical-align: middle;
+                }
+            }
+
+            .profileIcons{
+                top: -20px;
+                position: relative;
+                left: 40px;
+
+                >div:nth-of-type(1){
+                    -webkit-animation:0.55s show;
+                    animation:0.55s show;
+                }
+                >div:nth-of-type(2){
+                    -webkit-animation:0.75s show;
+                    animation:0.75s show;
+                }
+                >div:nth-of-type(3){
+                    -webkit-animation:0.95s show;
+                    animation:0.95s show;
+                }
+                >div:nth-of-type(4){
+                    -webkit-animation:0.95s show;
+                    animation:1.05s show;
+                }
+                >div:nth-of-type(5){
+                    -webkit-animation:0.95s show;
+                    animation:1.05s show;
+                }
+                >div:nth-of-type(6){
+                    -webkit-animation:0.95s show;
+                    animation:1.05s show;
+                }
+            }
+
+            .mainTitle{
+                position: relative;
+                text-align: center;
+                top: -10px;
+
+                #subtitle{
+                    >div{
+                        display: inline-block;
+                        margin-right: 20px;
+                        font-size: 13px;
+                    }
+                    .redDot{
+                       @include smallDot(red);
+                    }
+                    .yellowDot{
+                        @include smallDot(orange)
+                    }
+
+                    #moneyImg{
+                        width: 15px;
+                        position: relative;
+                        top:3px;
+                    }
+                }
+            }
+
+            .trackingMenu{
+                position: relative;
+                top: -15px;
+                
+                #tracking{
+                    float: right;
+                    margin-right: 40px;
+                    
+                     >div{
+                        display: inline-block;
+                        margin-left:10px;
+                    }
+
+                    img{
+                        width:14px;
+                        position: relative;
+                        top: 3px;margin-left: 3px;
+                    }
+
+                   
+                    
+                    .trackText{
+                        border: 1px solid transparent;
+                        background: rgb(238,242,248);
+                        width: 200px;
+                        height: 42px;
+                        position: relative;
+                        padding-left: 10px;
+                        border-radius: 500px;
+                        
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+
+                    .orange{
+                        color: orange;
+                    }
+
+                    .menudiv{
+                        position: relative;
+                        top:-5px;
+                    }
+
+                }
+            }
+        }
+
+
+        .mainCards{
+            width: 100%;
+            min-height: 700px;
+            background: rgb(242,246,250);
+            position: relative;
+
+            .cards{
+
+                text-align: center;
+                position: relative;
+                top:50px;
+                clear: both;
+
+                >div{
+                    width: 21%;
+                    float: left;
+                    margin-left: 42px;
+                }
+
+                >div:nth-of-type(1){
+                    -webkit-animation:0.9s show;
+                    animation:0.55s show;
+                }
+                >div:nth-of-type(2){
+                    -webkit-animation:0.9s show;
+                    animation:0.75s show;
+                }
+                >div:nth-of-type(3){
+                    -webkit-animation:0.9s show;
+                    animation:0.95s show;
+                }
+                >div:nth-of-type(4){
+                    -webkit-animation:0.9s show;
+                    animation:1.05s show;
+                }
+
+                @keyframes show {
+                0% {
+                    opacity:0;
+                    transform: scale(0.5);
+                }
+                70% {
+                    transform: scale(1.04);
+                }
+                100% { 
+                    opacity:1;
+                    transform: scale(1);
+                }
+                }
+
+                @-webkit-keyframes show {
+                0% {
+                    opacity:0;
+                    transform: scale(0.5);
+                }
+                70% {
+                    transform: scale(1.08);
+                }
+                100% { 
+                    opacity:1;
+                    transform: scale(1);
+                }
+                }
+
+                .card{
+                    position: relative;
+                    
+                    .card-header{
+                        width: 100%;
+                        min-height:50px;
+                        text-align: left;
+                         
+                        p{
+                            color: #fff;
+                            position: relative;
+                            top: 15px;
+                            left: 15px;
+                            font-size: 13px;
+                        }
+
+                        .dots{
+                            position: absolute;
+                            right: 5px;
+                            top: 28px;  
+
+                            img{
+                                height:20px;
+                            }
+                        }
+                    }
+
+                    .idea{
+                        background: rgb(89,170,250);
+                    }
+                    .inpro{
+                        background: rgb(253,189,133);
+                    }
+                    .review{
+                        background: rgb(143,129,226);
+                    }
+                    .approved{
+                        background: rgb(84,214,126);
+                    }
+
+                    .inputText{
+                        position: relative;
+                        width: 100%;
+
+                        .type{
+                            width: 100%;
+                            min-height: 50px;
+                            padding: 10px;
+                        }
+
+                        .inpActions{
+                            position: absolute;
+                            top: 16px;
+                            right: 6px;
+                            cursor: pointer;
+                            display:none;
+
+                            .del{
+                                height: 15px;
+                            }
+                            .check{
+                                height: 15px;
+                            }
+                        }
+                    }
+
+                    .tasks{
+                        background: #fff;
+                        margin-top: 15px;
+                        box-shadow: 0px 0px 1px 1px rgb(224,230,238);
+                        position: relative;
+                        word-wrap: break-word;
+                        min-height: 50px;
+
+                        .picContainer{
+                            position: absolute;
+                            text-align: left;
+                            display: inline-block;
+                            left: 5px;
+                            top: 10px;
+
+                            .profPic{
+                                @include roundbox(25px,25px);
+                                overflow: hidden;
+                            }
+                        }
+
+                        .textContainer{
+                            width: 75%;
+                            text-align: left;
+                            display: inline-block;
+                            font-size: 12px;
+                            position: relative;
+                            left: 15px;
+                        }
+
+                        .arrowContainer{
+                            display: inline-block;
+                            position: absolute;
+                            right: 5px;
+                            top: 13px;
+
+                            .arrowRight{
+                                width: 0; 
+                                height: 0; 
+                                border-top: 10px solid transparent;
+                                border-bottom: 10px solid transparent;
+                                border-left: 10px solid green;
+                            }
+
+                            .square{
+                                width:13px;
+                                height: 13px;
+                                background: orange;
+                            }
+                        }
+
+                    }
+
+                }
+
+                .card:hover{
+                    transform: scale(1.02);
+                }
+            }
+
+        }
+    }
+}

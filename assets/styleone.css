@@ -1,0 +1,266 @@
+@media only screen and (max-width : 322px) {
+    #logo{
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    .personal{
+        display: none;
+    }
+            
+}
+
+        /* Extra Small Devices, Phones */ 
+        @media only screen and (max-width : 480px) {
+             #logo{
+                width: 100%;
+                text-align: center;
+                display: block;
+            }
+            .personal{
+                display: none;
+                
+            }
+            .mobileMenu{
+                position: relative;
+                display: block !important;
+                left: 15px;
+                top: -33px;
+            }
+            .mobileMenu img{
+                height: 25px;
+            }
+
+            #titleArea{
+                display:block;
+                height: 250px;
+            }
+
+            #titleArea #profileIcons{
+                display: block;
+                width: 100%;
+                top: 20px;
+                left:0px;
+                text-align: center;
+                padding: 10px 2px;
+                border-bottom: 1px solid rgb(242,244,248);
+            }
+
+            #titleArea #mainTitle{
+                display: block;
+                width: 100%;
+                text-align: center;
+                top: 0px;
+                padding: 10px 2px;
+                border-bottom: 1px solid rgb(242,244,248);
+            }
+
+            #titleArea #trackingMenu{
+                display: block;
+                width: 100%;
+                text-align: center;
+                background-color: #fff;
+                padding: 10px 0px;
+                top: 0px;
+            }
+
+            #tracking{
+                float:none !important;
+                margin-right: 0px !important;
+            }
+
+            #cards{
+                width: 100%;
+                left: 8%;
+                top:0px;
+            }
+
+            #cards >div{
+                float: none;
+                width: 80%;
+                text-align: center;
+                margin-left: 0px;
+                padding: 10px;
+            }
+
+        }
+
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 650px) and (min-width: 480px) {
+
+            #titleArea{
+                display:block;
+                height: 250px;
+            }
+
+            #titleArea #profileIcons{
+                display: inline-block;
+                width: 47%;
+                top: 4px;
+                left:0px;
+                text-align: center;
+                padding: 10px 2px;
+            }
+
+            #titleArea #mainTitle{
+                display: inline-block;
+                width: 47%;
+                text-align: center;
+                top: 0px;
+                padding: 10px 2px;     
+            }
+
+             #titleArea #trackingMenu{
+                display: block;
+                width: 100%;
+                text-align: center;
+                background-color: #fff;
+                padding: 10px 0px;
+                top: 20px;
+            }
+
+            #tracking{
+                float:none !important;
+                margin-right: 0px !important;
+            }
+
+            .mainCards{
+                min-height: 1040px !important;
+            }
+
+            #cards >div{
+                float: left;
+                width: 42%;
+                text-align: center;
+                margin-left: 16px;
+                padding: 10px;
+            }
+
+        }
+
+        /* Medium Devices, Desktops */
+        @media only screen and (max-width : 800px) and (min-width : 650px){
+            #profileIcons img {
+                height: 25px !important;
+                width:25px !important;
+            }
+            #add{
+                height: 25px !important;
+                width:25px !important;
+                line-height: 24px !important;
+            }
+
+             #titleArea > div{
+                width:31% !important;
+            }
+
+             #titleArea .trackingMenu{
+                top: -65px !important;
+            }
+
+            #tracking{
+                float:none !important;
+                margin-right: 0px !important;
+            }
+
+            #tracking .trackText{
+                width: 158px !important;
+                font-size: 10px !important;
+            }
+             #tracking p{
+                font-size: 10px !important;
+            }
+
+            #tracking>div{
+                margin-left: 0px !important;
+            }
+
+            #cards > div{
+                width: 40%;
+                float: left;
+                margin-left: 42px;
+            }
+        }
+
+        @media only screen and (max-width : 864px) and (min-width : 800px){
+            body .mainContainer #titleArea .trackingMenu #tracking .menudiv{
+                display: none !important;
+            }
+            body .mainContainer #titleArea .trackingMenu {
+                top: -60px !important;
+            }
+
+            #cards > div{
+                width: 42%;
+                float: left;
+                margin-left: 42px;
+            }
+        }
+
+        @media only screen and (max-width : 928px) and (min-width : 864px){
+            #titleArea #profileIcons{
+                top:0px;
+            }
+
+             #titleArea #trackingMenu{
+                text-align: center;
+                background-color: #fff;
+            }
+
+            body .mainContainer #titleArea .trackingMenu #tracking .menudiv{
+                display: none !important;
+            }
+
+            body .mainContainer #titleArea .trackingMenu{
+                    top: -38px !important;
+            }
+
+            #cards > div{
+                width: 42%;
+                float: left;
+                margin-left: 42px;
+            }
+
+        }
+
+        @media only screen and (max-width : 928px) and (min-width : 928px){
+            #titleArea #profileIcons{
+                top:-42px;
+            }
+        }
+
+        @media only screen and (max-width : 992px) and (min-width : 929px){
+            #profileIcons > div{
+                margin-right: 5px !important;
+            }
+
+            body .mainContainer #titleArea .trackingMenu #tracking > div{
+                margin-left:0px;
+            }
+
+            .mainCards{
+                min-height: 990px !important;
+            }
+
+             #cards > div{
+                width: 42%;
+                float: left;
+                margin-left: 42px;
+            }
+        }
+
+        @media only screen and (max-width : 1070px) and (min-width : 992px){
+            .mainCards{
+                min-height: 1000px !important;
+            }
+
+            #cards > div{
+                width: 28% ;
+                float: left;
+                margin-left: 42px;
+            }
+
+            #approved{
+                clear: both !important;
+            }
+        }

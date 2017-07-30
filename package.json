@@ -1,0 +1,33 @@
+{
+  "name": "zetaassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rimraf build",
+    "server": "webpack-dev-server",
+    "start": "npm run build & nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.4",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "image-webpack-loader": "^3.1.0",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.5.3",
+    "rimraf": "^2.5.4",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.0-rc.0",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

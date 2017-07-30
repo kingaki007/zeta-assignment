@@ -1,0 +1,78 @@
+{
+    "users" : ["ron","leo","wazza","fed"],
+    "overdue" : 3,
+    "approaching_deadline" : 4,
+    "notifications" : "2",
+    "tasks" : [
+        {
+            "task_name":"Improve the contrast to make Jared happy :D",
+            "user" : "ron",
+            "status":["idea","inpro"],
+            "arrow" : true,
+            "border" : "rgb(252,91,94)"
+        },
+        {
+            "task_name":"Header Illustration",
+            "user" : "leo",
+            "status":["idea","inpro","review"],
+            "arrow" : true,
+            "border" : "rgb(92,219,133)"
+        },
+        {
+            "task_name":"Icons for the dashboard",
+            "user" : "wazza",
+            "status":["idea","inpro","review"],
+            "arrow" : true,
+            "border" : "rgb(92,219,133)"
+        },
+        {
+            "task_name":"Design new Illustration for the app onboarding screens using Slack as inspiration",
+            "user" : "leo",
+            "status":["idea","approved"],
+            "arrow" : true,
+            "border" : "rgb(252,91,94)"
+        },
+        {
+            "task_name":"Slider animation",
+            "user" : "becks",
+            "status":["idea","approved"],
+            "arrow" : true,
+            "border" : "rgb(254,199,82)"
+        },
+        {
+            "task_name":"Onboarding screens",
+            "user" : "wazza",
+            "status":["inpro"],
+            "arrow" : false,
+            "border" : "rgb(254,199,82)"
+        },
+        {
+            "task_name":"Login error",
+            "user" : "nadal",
+            "status":["inpro"],
+            "arrow" : true,
+            "border" : "rgb(254,199,82)"
+        },
+        {
+            "task_name":"Create new logo for the web app",
+            "user" : "cantona",
+            "status":["inpro"],
+            "arrow" : false,
+            "border" : "rgb(252,91,94)"
+        },
+        {
+            "task_name":"The account settings screen needs to be mocked up",
+            "user" : "ron",
+            "status":["review","approved"],
+            "arrow" : true,
+            "border" : "rgb(78,219,125)"
+        },
+        {
+            "task_name":"Replace dashboard icons with more colorful ones",
+            "user" : "djoker",
+            "status":["review","approved"],
+            "arrow" : true,
+            "border" : "rgb(253,77,79)"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+$maincolor : #000;
+
+@mixin roundbox($width,$height){
+    display: inline-block;
+    position: relative;
+    width:$width;
+    height:$height;
+    border-radius:50%;
+    border: 1px solid grey;
+    text-align: center;
+    line-height: 38px;
+}
+
+@mixin ellipticalbox{
+    @include roundbox(40px,40px);
+    border-radius: 15px;
+    border: 1px solid rgb(164,231,180);
+}
+
+@mixin smallDot($color){
+    height:10px;
+    width:10px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: $color;
+}

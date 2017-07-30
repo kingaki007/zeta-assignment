@@ -1,0 +1,321 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Slab',sans serif; }
+  body .mainContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff; }
+    body .mainContainer #header {
+      position: relative;
+      height: 63px;
+      width: 100%;
+      border-bottom: 1px solid #f2f4f8; }
+      body .mainContainer #header #logo {
+        float: left;
+        margin-top: 10px;
+        margin-left: 40px; }
+      body .mainContainer #header .mobileMenu {
+        display: none; }
+      body .mainContainer #header .personal {
+        float: right;
+        margin-top: 23px;
+        margin-right: 40px; }
+        body .mainContainer #header .personal > div {
+          display: inline-block;
+          padding-right: 10px; }
+          body .mainContainer #header .personal > div img {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%; }
+        body .mainContainer #header .personal > div:hover {
+          transform: scale(1.4); }
+        body .mainContainer #header .personal > div:nth-of-type(1) {
+          -webkit-animation: 0.55s show;
+          animation: 0.55s show; }
+        body .mainContainer #header .personal > div:nth-of-type(2) {
+          -webkit-animation: 0.75s show;
+          animation: 0.75s show; }
+        body .mainContainer #header .personal > div:nth-of-type(3) {
+          -webkit-animation: 0.95s show;
+          animation: 0.95s show; }
+        body .mainContainer #header .personal > div:nth-of-type(4) {
+          -webkit-animation: 0.95s show;
+          animation: 0.95s show; }
+        body .mainContainer #header .personal .arrow {
+          position: relative;
+          top: -2px; }
+        body .mainContainer #header .personal #arrow {
+          width: 12px;
+          height: 12px;
+          border-radius: 0; }
+        body .mainContainer #header .personal #notification {
+          position: relative; }
+          body .mainContainer #header .personal #notification #numNotif {
+            font-size: 9px;
+            position: absolute;
+            top: -5px;
+            left: 14px;
+            background: red;
+            padding: 2px;
+            color: #fff; }
+    body .mainContainer #titleArea {
+      width: 100%;
+      box-shadow: 0px 2px 0px #f2f4f8;
+      position: relative; }
+      body .mainContainer #titleArea > div {
+        display: inline-block;
+        width: 33%;
+        width: calc((100% / 3)-25px); }
+      body .mainContainer #titleArea .round {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        text-align: center;
+        line-height: 38px; }
+      body .mainContainer #titleArea .reqdRound {
+        display: inline-block;
+        border-radius: 50%;
+        border: 1px solid grey;
+        text-align: center;
+        overflow: hidden;
+        margin-right: 10px; }
+      body .mainContainer #titleArea .reqdRound:hover {
+        transform: scale(1.2); }
+      body .mainContainer #titleArea .elliptical {
+        display: inline-block;
+        border-radius: 15px;
+        border: 1px solid #a4e7b4;
+        text-align: center;
+        overflow: hidden;
+        margin-right: 10px;
+        height: 36px;
+        width: 50px;
+        line-height: 35px; }
+      body .mainContainer #titleArea #add {
+        border: 1px dashed grey;
+        height: 36px;
+        width: 36px;
+        line-height: 33px; }
+        body .mainContainer #titleArea #add span {
+          vertical-align: middle; }
+      body .mainContainer #titleArea .profileIcons {
+        top: -20px;
+        position: relative;
+        left: 40px; }
+        body .mainContainer #titleArea .profileIcons > div:nth-of-type(1) {
+          -webkit-animation: 0.55s show;
+          animation: 0.55s show; }
+        body .mainContainer #titleArea .profileIcons > div:nth-of-type(2) {
+          -webkit-animation: 0.75s show;
+          animation: 0.75s show; }
+        body .mainContainer #titleArea .profileIcons > div:nth-of-type(3) {
+          -webkit-animation: 0.95s show;
+          animation: 0.95s show; }
+        body .mainContainer #titleArea .profileIcons > div:nth-of-type(4) {
+          -webkit-animation: 0.95s show;
+          animation: 1.05s show; }
+        body .mainContainer #titleArea .profileIcons > div:nth-of-type(5) {
+          -webkit-animation: 0.95s show;
+          animation: 1.05s show; }
+        body .mainContainer #titleArea .profileIcons > div:nth-of-type(6) {
+          -webkit-animation: 0.95s show;
+          animation: 1.05s show; }
+      body .mainContainer #titleArea .mainTitle {
+        position: relative;
+        text-align: center;
+        top: -10px; }
+        body .mainContainer #titleArea .mainTitle #subtitle > div {
+          display: inline-block;
+          margin-right: 20px;
+          font-size: 13px; }
+        body .mainContainer #titleArea .mainTitle #subtitle .redDot {
+          height: 10px;
+          width: 10px;
+          display: inline-block;
+          margin-right: 5px;
+          border-radius: 5px;
+          background-color: red; }
+        body .mainContainer #titleArea .mainTitle #subtitle .yellowDot {
+          height: 10px;
+          width: 10px;
+          display: inline-block;
+          margin-right: 5px;
+          border-radius: 5px;
+          background-color: orange; }
+        body .mainContainer #titleArea .mainTitle #subtitle #moneyImg {
+          width: 15px;
+          position: relative;
+          top: 3px; }
+      body .mainContainer #titleArea .trackingMenu {
+        position: relative;
+        top: -15px; }
+        body .mainContainer #titleArea .trackingMenu #tracking {
+          float: right;
+          margin-right: 40px; }
+          body .mainContainer #titleArea .trackingMenu #tracking > div {
+            display: inline-block;
+            margin-left: 10px; }
+          body .mainContainer #titleArea .trackingMenu #tracking img {
+            width: 14px;
+            position: relative;
+            top: 3px;
+            margin-left: 3px; }
+          body .mainContainer #titleArea .trackingMenu #tracking .trackText {
+            border: 1px solid transparent;
+            background: #eef2f8;
+            width: 200px;
+            height: 42px;
+            position: relative;
+            padding-left: 10px;
+            border-radius: 500px; }
+            body .mainContainer #titleArea .trackingMenu #tracking .trackText p {
+              font-size: 13px; }
+          body .mainContainer #titleArea .trackingMenu #tracking .orange {
+            color: orange; }
+          body .mainContainer #titleArea .trackingMenu #tracking .menudiv {
+            position: relative;
+            top: -5px; }
+    body .mainContainer .mainCards {
+      width: 100%;
+      min-height: 700px;
+      background: #f2f6fa;
+      position: relative; }
+      body .mainContainer .mainCards .cards {
+        text-align: center;
+        position: relative;
+        top: 50px;
+        clear: both; }
+        body .mainContainer .mainCards .cards > div {
+          width: 21%;
+          float: left;
+          margin-left: 42px; }
+        body .mainContainer .mainCards .cards > div:nth-of-type(1) {
+          -webkit-animation: 0.9s show;
+          animation: 0.55s show; }
+        body .mainContainer .mainCards .cards > div:nth-of-type(2) {
+          -webkit-animation: 0.9s show;
+          animation: 0.75s show; }
+        body .mainContainer .mainCards .cards > div:nth-of-type(3) {
+          -webkit-animation: 0.9s show;
+          animation: 0.95s show; }
+        body .mainContainer .mainCards .cards > div:nth-of-type(4) {
+          -webkit-animation: 0.9s show;
+          animation: 1.05s show; }
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); }
+  70% {
+    transform: scale(1.04); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); }
+  70% {
+    transform: scale(1.08); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+        body .mainContainer .mainCards .cards .card {
+          position: relative; }
+          body .mainContainer .mainCards .cards .card .card-header {
+            width: 100%;
+            min-height: 50px;
+            text-align: left; }
+            body .mainContainer .mainCards .cards .card .card-header p {
+              color: #fff;
+              position: relative;
+              top: 15px;
+              left: 15px;
+              font-size: 13px; }
+            body .mainContainer .mainCards .cards .card .card-header .dots {
+              position: absolute;
+              right: 5px;
+              top: 28px; }
+              body .mainContainer .mainCards .cards .card .card-header .dots img {
+                height: 20px; }
+          body .mainContainer .mainCards .cards .card .idea {
+            background: #59aafa; }
+          body .mainContainer .mainCards .cards .card .inpro {
+            background: #fdbd85; }
+          body .mainContainer .mainCards .cards .card .review {
+            background: #8f81e2; }
+          body .mainContainer .mainCards .cards .card .approved {
+            background: #54d67e; }
+          body .mainContainer .mainCards .cards .card .inputText {
+            position: relative;
+            width: 100%; }
+            body .mainContainer .mainCards .cards .card .inputText .type {
+              width: 100%;
+              min-height: 50px;
+              padding: 10px; }
+            body .mainContainer .mainCards .cards .card .inputText .inpActions {
+              position: absolute;
+              top: 16px;
+              right: 6px;
+              cursor: pointer;
+              display: none; }
+              body .mainContainer .mainCards .cards .card .inputText .inpActions .del {
+                height: 15px; }
+              body .mainContainer .mainCards .cards .card .inputText .inpActions .check {
+                height: 15px; }
+          body .mainContainer .mainCards .cards .card .tasks {
+            background: #fff;
+            margin-top: 15px;
+            box-shadow: 0px 0px 1px 1px #e0e6ee;
+            position: relative;
+            word-wrap: break-word;
+            min-height: 50px; }
+            body .mainContainer .mainCards .cards .card .tasks .picContainer {
+              position: absolute;
+              text-align: left;
+              display: inline-block;
+              left: 5px;
+              top: 10px; }
+              body .mainContainer .mainCards .cards .card .tasks .picContainer .profPic {
+                display: inline-block;
+                position: relative;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                border: 1px solid grey;
+                text-align: center;
+                line-height: 38px;
+                overflow: hidden; }
+            body .mainContainer .mainCards .cards .card .tasks .textContainer {
+              width: 75%;
+              text-align: left;
+              display: inline-block;
+              font-size: 12px;
+              position: relative;
+              left: 15px; }
+            body .mainContainer .mainCards .cards .card .tasks .arrowContainer {
+              display: inline-block;
+              position: absolute;
+              right: 5px;
+              top: 13px; }
+              body .mainContainer .mainCards .cards .card .tasks .arrowContainer .arrowRight {
+                width: 0;
+                height: 0;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 10px solid green; }
+              body .mainContainer .mainCards .cards .card .tasks .arrowContainer .square {
+                width: 13px;
+                height: 13px;
+                background: orange; }
+        body .mainContainer .mainCards .cards .card:hover {
+          transform: scale(1.02); }
+
+/*# sourceMappingURL=style.css.map*/
